@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: 我想再看你一眼");
+        Log.e(TAG, "onCreate: " );
     }
 }
